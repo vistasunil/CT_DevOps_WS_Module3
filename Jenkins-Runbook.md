@@ -31,9 +31,16 @@
 
 ### _Solution:_
 
-1. Create one GCP Ubuntu 18.04 instance and run below commands one by one. Make sure each command executed successfully before running next command:
+1. Create one GCP Ubuntu 22.04 instance and run below commands one by one. Make sure each command executed successfully before running next command:
 
-[Refer official documentation](https://www.jenkins.io/doc/book/installing/linux/) for installation steps.
+**Install Java 11:** Run below commands:
+
+```
+sudo apt update
+sudo apt install openjdk-11-jre
+```
+
+**Install Jenkins:** [Refer official documentation](https://www.jenkins.io/doc/book/installing/linux/) for installation steps.
 
 ![image](https://github.com/vistasunil/CT_DevOps_WS_Module3/assets/37858762/6b9fa08c-6013-45bf-80d2-bdf472ff5376)
 
