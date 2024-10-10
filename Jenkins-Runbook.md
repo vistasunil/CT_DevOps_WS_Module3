@@ -37,7 +37,7 @@
 
 ```
 sudo apt update
-sudo apt install openjdk-11-jre
+sudo apt install fontconfig openjdk-17-jre
 ```
 
 **Install Jenkins:** [Refer official documentation](https://www.jenkins.io/doc/book/installing/linux/) for installation steps.
